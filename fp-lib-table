@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EtherkitKicadLibrary)(type Github)(uri https://github.com/etherkit/EtherkitKicadLibrary)(options "")(descr "This is the master library for all of the Etherkit products created with KiCad."))
+)

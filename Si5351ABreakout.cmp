@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by Cvpcb (2014-05-30 BZR 4900)-product   date = Fri 30 May 2014 04:00:01 PM PDT
+
+BeginCmp
+TimeStamp = /5387C9C6;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = EtherkitKicadLibrary:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5387F18F;
+Reference = J1;
+ValeurCmp = Power/Data;
+IdModule  = EtherkitKicadLibrary:SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E56CB;
+Reference = J2;
+ValeurCmp = SMA-F;
+IdModule  = EtherkitKicadLibrary:SMA-ENDLAUNCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E56E2;
+Reference = J3;
+ValeurCmp = SMA-F;
+IdModule  = EtherkitKicadLibrary:SMA-ENDLAUNCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E56ED;
+Reference = J4;
+ValeurCmp = SMA-F;
+IdModule  = EtherkitKicadLibrary:SMA-ENDLAUNCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F941C;
+Reference = J5;
+ValeurCmp = CLK0;
+IdModule  = EtherkitKicadLibrary:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F9432;
+Reference = J6;
+ValeurCmp = CLK1;
+IdModule  = EtherkitKicadLibrary:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F9442;
+Reference = J7;
+ValeurCmp = CLK2;
+IdModule  = EtherkitKicadLibrary:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E631E;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = EtherkitKicadLibrary:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E62C1;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = EtherkitKicadLibrary:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /538907B7;
+Reference = T1;
+ValeurCmp = TC1-6X+;
+IdModule  = EtherkitKicadLibrary:TC1-6X+;
+EndCmp
+
+BeginCmp
+TimeStamp = /538908A7;
+Reference = T2;
+ValeurCmp = TC1-6X+;
+IdModule  = EtherkitKicadLibrary:TC1-6X+;
+EndCmp
+
+BeginCmp
+TimeStamp = /53890928;
+Reference = T3;
+ValeurCmp = TC1-6X+;
+IdModule  = EtherkitKicadLibrary:TC1-6X+;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E46E1;
+Reference = U1;
+ValeurCmp = SI5351A;
+IdModule  = EtherkitKicadLibrary:MSOP-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5388F382;
+Reference = X1;
+ValeurCmp = ECS-250-8-30B-CKM;
+IdModule  = EtherkitKicadLibrary:ECS-250-8-30B-CKM;
+EndCmp
+
+EndListe
