@@ -1,6 +1,6 @@
-update=Tue 29 Jul 2014 07:04:02 PM PDT
+update=Sun 18 Jan 2015 01:42:14 AM PST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -56,10 +56,10 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.15
-PadDrillOvalY=0.15
-PadSizeH=0.2
-PadSizeV=0.2
+PadDrill=0.3
+PadDrillOvalY=0.3
+PadSizeH=0.5
+PadSizeV=0.5
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -71,5 +71,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[pcbnew/libraries]
-LibDir=

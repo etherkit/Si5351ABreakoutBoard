@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sun 20 Jul 2014 06:29:20 PM PDT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sat 17 Jan 2015 02:35:04 PM PST
 
 BeginCmp
 TimeStamp = /53CC409B;
@@ -92,6 +92,13 @@ IdModule  = EtherkitKicadLibrary:SIL-2;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B82569;
+Reference = J10;
+ValeurCmp = Osc Power;
+IdModule  = EtherkitKicadLibrary:SIL-2;
+EndCmp
+
+BeginCmp
 TimeStamp = /53CC1B4A;
 Reference = Q1;
 ValeurCmp = 2N7002;
@@ -134,27 +141,6 @@ IdModule  = EtherkitKicadLibrary:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53890928;
-Reference = T1;
-ValeurCmp = Mini-Circuits TC1-6X+;
-IdModule  = EtherkitKicadLibrary:TC1-6X+;
-EndCmp
-
-BeginCmp
-TimeStamp = /538907B7;
-Reference = T2;
-ValeurCmp = Mini-Circuits TC1-6X+;
-IdModule  = EtherkitKicadLibrary:TC1-6X+;
-EndCmp
-
-BeginCmp
-TimeStamp = /538908A7;
-Reference = T3;
-ValeurCmp = Mini-Circuits TC1-6X+;
-IdModule  = EtherkitKicadLibrary:TC1-6X+;
-EndCmp
-
-BeginCmp
 TimeStamp = /53CC3FC4;
 Reference = U1;
 ValeurCmp = LP2985-3.3;
@@ -164,7 +150,7 @@ EndCmp
 BeginCmp
 TimeStamp = /537E46E1;
 Reference = U2;
-ValeurCmp = SI5351A;
+ValeurCmp = Si5351A;
 IdModule  = EtherkitKicadLibrary:MSOP-10;
 EndCmp
 
