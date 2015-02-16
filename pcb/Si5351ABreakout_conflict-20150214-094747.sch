@@ -31,13 +31,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Si5351ABreakout-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Si5351A Breakout"
-Date "15 Jan 2015"
+Date "Sat 14 Feb 2015"
 Rev "C"
 Comp "Etherkit"
 Comment1 ""
@@ -479,7 +479,7 @@ L C C2
 U 1 1 53CC4089
 P 1975 1835
 F 0 "C2" H 2125 1870 50  0000 C CNN
-F 1 "10n" H 2155 1790 50  0000 C CNN
+F 1 "100n" H 2168 1790 50  0000 C CNN
 F 2 "" H 1975 1835 60  0000 C CNN
 F 3 "" H 1975 1835 60  0000 C CNN
 	1    1975 1835
