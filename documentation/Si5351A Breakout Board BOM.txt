@@ -12,7 +12,7 @@ Capacitors (size 0805)
 Connectors
 | 0.1 inch jumper                   2                                       3M 969102-0000-DA                        
 | 0.1 inch header - 3 pins          2      J2, J3
-| 0.1 inch header - 5 pins          5      J1
+| 0.1 inch header - 5 pins          1      J1
 
 Crystals/Oscillators
 | 25 MHz crystal                    1      X1                               ECS ECS-250-8-30B-CKM
