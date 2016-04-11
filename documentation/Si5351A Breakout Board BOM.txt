@@ -1,6 +1,6 @@
 Si5351A Breakout Board BOM
 Etherkit
-15 Feb 2015
+11 Apr 2016
 
 | Part (marking)                  | Qty  | Ref                            | P/N
 ======================================================================================================
@@ -17,7 +17,10 @@ Connectors
 Crystals/Oscillators
 | 25 MHz crystal                    1      X1                               ECS ECS-250-8-30B-CKM
 OR
-| 25 MHz TCXO                       1      X1                               Fox FOX924B-25.000
+| 25 MHz TCXO                       1      X1                               Abracon ASTX-H11-25.000MHZ-T
+                                                                              (From 11 Apr 2016, from S/N 001126)
+                                                                            Fox FOX924B-25.000
+                                                                              (Until 10 Apr 2016, to S/N 001125)
 
 Semiconductors
 | 2N7002                            2      Q1, Q2                           NXP 2N7002P,215
