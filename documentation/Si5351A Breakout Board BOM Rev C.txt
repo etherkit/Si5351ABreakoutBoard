@@ -1,5 +1,5 @@
 Si5351A Breakout Board BOM
-Rev C
+Rev D
 Etherkit
 11 Apr 2016
 
@@ -16,17 +16,17 @@ Connectors
 | 0.1 inch header - 5 pins          1      J1
 
 Crystals/Oscillators
-| 25 MHz crystal                    1      X1                               ECS ECS-250-8-30B-CKM
+| 25 MHz crystal                    1      X1 (Standard only)               Epson TSX-3225 25.0000MF10P-C
 OR
-| 25 MHz TCXO                       1      X1                               Abracon ASTX-H11-25.000MHZ-T
-                                                                              (From 11 Apr 2016, from S/N 001126)
-                                                                            Fox FOX924B-25.000
-                                                                              (Until 10 Apr 2016, to S/N 001125)
+| 25 MHz TCXO                       1      X1 (TCXO only)                   Abracon ASTX-H11-25.000MHZ-T
 
 Semiconductors
 | 2N7002                            2      Q1, Q2                           NXP 2N7002P,215
 
 Resistors & Trimmers (0.125 W size 0805)
+| 0                                 2      R5, R6 (TCXO only)
+| 68                                1      R8 (TCXO only)
+| 100                               2      R7, R9 (TCXO only)
 | 10k                               4      R1, R2, R3, R4
 
 ICs

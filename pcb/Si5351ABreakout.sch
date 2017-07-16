@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Si5351ABreakout-rescue
 LIBS:EtherkitKicadLibrary
 LIBS:power
 LIBS:device
@@ -37,13 +36,13 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Si5351A Breakout"
-Date "2017-01-28"
+Date "2017-07-16"
 Rev "D"
 Comp "Etherkit"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "Creative Commons Licence CC-BY-SA"
+Comment4 "Creative Commons License CC-BY-SA"
 $EndDescr
 $Comp
 L SI5351A U2
@@ -649,12 +648,12 @@ $EndComp
 $Comp
 L +3.3VREG #PWR018
 U 1 1 53D57D6D
-P 4055 2665
-F 0 "#PWR018" H 4055 2625 30  0001 C CNN
-F 1 "+3.3VREG" H 4055 2775 30  0000 C CNN
-F 2 "" H 4055 2665 60  0000 C CNN
-F 3 "" H 4055 2665 60  0000 C CNN
-	1    4055 2665
+P 4055 2365
+F 0 "#PWR018" H 4055 2325 30  0001 C CNN
+F 1 "+3.3VREG" H 4055 2475 30  0000 C CNN
+F 2 "" H 4055 2365 60  0000 C CNN
+F 3 "" H 4055 2365 60  0000 C CNN
+	1    4055 2365
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -742,10 +741,10 @@ Wire Wire Line
 	3770 2720 4055 2720
 Connection ~ 4055 2720
 $Comp
-L R R6
+L R R7
 U 1 1 588D31D1
 P 4480 3380
-F 0 "R6" H 4600 3420 50  0000 C CNN
+F 0 "R7" H 4600 3420 50  0000 C CNN
 F 1 "0" H 4580 3340 50  0001 C CNN
 F 2 "Resistors_SMD:R_0805" H 4480 3380 60  0001 C CNN
 F 3 "" H 4480 3380 60  0000 C CNN
@@ -753,10 +752,10 @@ F 3 "" H 4480 3380 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R R9
 U 1 1 588D333B
 P 4880 3380
-F 0 "R8" H 5000 3420 50  0000 C CNN
+F 0 "R9" H 5000 3420 50  0000 C CNN
 F 1 "0" H 4980 3340 50  0001 C CNN
 F 2 "Resistors_SMD:R_0805" H 4880 3380 60  0001 C CNN
 F 3 "" H 4880 3380 60  0000 C CNN
@@ -786,10 +785,10 @@ F 3 "" H 4880 3535 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R R8
 U 1 1 588D362C
 P 4680 3230
-F 0 "R7" V 4775 3225 50  0000 C CNN
+F 0 "R8" V 4775 3225 50  0000 C CNN
 F 1 "0" V 4780 3120 50  0001 C CNN
 F 2 "Resistors_SMD:R_0805" H 4680 3230 60  0001 C CNN
 F 3 "" H 4680 3230 60  0000 C CNN
@@ -821,4 +820,15 @@ Wire Wire Line
 	6690 3505 6690 3525
 Wire Wire Line
 	6690 3525 6855 3525
+$Comp
+L R R6
+U 1 1 58A9E9AD
+P 4055 2515
+F 0 "R6" H 4175 2555 50  0000 C CNN
+F 1 "0" H 4155 2475 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 4055 2515 60  0001 C CNN
+F 3 "" H 4055 2515 60  0000 C CNN
+	1    4055 2515
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
