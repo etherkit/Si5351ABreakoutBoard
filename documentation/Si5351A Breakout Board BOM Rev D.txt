@@ -1,14 +1,13 @@
 Si5351A Breakout Board BOM
 Rev D
 Etherkit
-11 Apr 2016
+19 Mar 2021
 
 | Part (marking)                  | Qty  | Ref                            | P/N
 ======================================================================================================
 Capacitors (size 0805)
 | 100n                              2      C2, C4
-| 1u MLCC                           1      C1
-| 4.7u MLCC                         1      C3
+| 4.7u MLCC                         1      C1, C3
 
 Connectors
 | 0.1 inch jumper                   2                                       3M 969102-0000-DA
@@ -18,13 +17,16 @@ Connectors
 Crystals/Oscillators
 | 25 MHz crystal                    1      X1 (Standard only)               Epson TSX-3225 25.0000MF10P-C
 OR
-| 25 MHz TCXO                       1      X1 (TCXO only)                   Abracon ASTX-H11-25.000MHZ-T
+| 25 MHz TCXO                       1      X1 (TCXO only)                   Jauch Quartz O 25,0-JT32C-A-K-3,3-LF
+                                                                            or
+                                                                            Abracon ASTX-H11-25.000MHZ-T
 
 Semiconductors
 | 2N7002                            2      Q1, Q2                           NXP 2N7002P,215
 
 Resistors & Trimmers (0.125 W size 0805)
 | 0                                 2      R5, R6 (TCXO only)
+                                    1      R8 (Standard only)
 | 68                                1      R8 (TCXO only)
 | 100                               2      R7, R9 (TCXO only)
 | 10k                               4      R1, R2, R3, R4
