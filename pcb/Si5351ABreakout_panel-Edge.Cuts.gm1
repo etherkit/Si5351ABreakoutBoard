@@ -1,12 +1,16 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2018-12-18T08:43:18-08:00*
+G04 #@! TF.ProjectId,Si5351ABreakout_panel,53693533-3531-4414-9272-65616b6f7574,A*
+G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.6-e0-6349~53~ubuntu16.04.1) date Tue Jun 20 10:06:01 2017*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Tue 18 Dec 2018 08:43:18 AM PST*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10C,0.200000*%
+%ADD10C,0.150000*%
 %ADD11C,0.100000*%
 G04 APERTURE END LIST*
 D10*

@@ -72,8 +72,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFF77F)
     (pcbplotparams
-      (layerselection 0x011f8_80000001)
-      (usegerberextensions false)
+      (layerselection 0x012f0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer false)
       (linewidth 0.200000)
       (plotframeref false)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory /home/jason/Nextcloud/Etherkit/git/Si5351ABreakout/pcb/))
   )
 
   (net 0 "")

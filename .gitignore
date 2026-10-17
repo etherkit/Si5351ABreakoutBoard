@@ -1,0 +1,7 @@
+# KiCad local/generated files
+pcb/production/
+*-backups/
+pcb/rescue-backup/
+fp-info-cache
+~*.lck
+*.kicad_sch-bak
