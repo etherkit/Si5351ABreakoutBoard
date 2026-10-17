@@ -53,7 +53,7 @@
 				)
 			)
 		)
-		(property "Description" "4-pin 3225 TCXO, clipped-sine output; pin 1 NC (leave floating)"
+		(property "Description" "4-pin 3225 TCXO, clipped-sine output; pin 1 NC/EN (NC on fitted part; EN on active-high-enable TCXOs via DNP R6)"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -78,13 +78,13 @@
 			)
 		)
 		(symbol "TCXO_4P_1_1"
-			(pin no_connect line
+			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "NC"
+				(name "NC/EN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)

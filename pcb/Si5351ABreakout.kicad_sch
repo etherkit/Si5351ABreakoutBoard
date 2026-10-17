@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "4-pin 3225 TCXO, clipped-sine output; pin 1 NC (leave floating)"
+			(property "Description" "4-pin 3225 TCXO, clipped-sine output; pin 1 NC/EN (NC on fitted part; EN on active-high-enable TCXOs via DNP R6)"
 				(at 0 0 0)
 				(hide yes)
 				(show_name no)
@@ -88,13 +88,13 @@
 				)
 			)
 			(symbol "TCXO_4P_1_1"
-				(pin no_connect line
+				(pin passive line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "NC"
+					(name "NC/EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1795,7 +1795,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7002"
+		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(hide yes)
 			)
@@ -1815,7 +1815,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002"
+			(property "Value" "BSS138"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1839,7 +1839,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BSS138.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1851,7 +1851,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "50V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1884,7 +1884,7 @@
 					)
 				)
 			)
-			(symbol "2N7002_0_1"
+			(symbol "BSS138_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2051,7 +2051,7 @@
 					)
 				)
 			)
-			(symbol "2N7002_1_1"
+			(symbol "BSS138_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -4898,7 +4898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
+		(lib_id "Transistor_FET:BSS138")
 		(at 73.66 114.3 90)
 		(mirror x)
 		(unit 1)
@@ -4920,7 +4920,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 64.008 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,7 +4931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 75.565 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4944,7 +4944,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BSS138.pdf"
 			(at 77.47 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4956,7 +4956,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 			(at 73.66 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4967,7 +4967,7 @@
 				)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
+		(property "MPN" "BSS138-7-F"
 			(at 73.66 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4978,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Toshiba"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 73.66 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4989,7 +4989,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C146372"
+		(property "LCSC" "C40912"
 			(at 73.66 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5019,7 +5019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
+		(lib_id "Transistor_FET:BSS138")
 		(at 73.66 133.858 90)
 		(mirror x)
 		(unit 1)
@@ -5041,7 +5041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 68.707 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5052,7 +5052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 75.565 138.938 0)
 			(hide yes)
 			(show_name no)
@@ -5065,7 +5065,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BSS138.pdf"
 			(at 77.47 138.938 0)
 			(hide yes)
 			(show_name no)
@@ -5077,7 +5077,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 			(at 73.66 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -5088,7 +5088,7 @@
 				)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
+		(property "MPN" "BSS138-7-F"
 			(at 73.66 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -5099,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Toshiba"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 73.66 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C146372"
+		(property "LCSC" "C40912"
 			(at 73.66 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -6954,7 +6954,7 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary1:+3.3VREG")
-		(at 96.52 71.12 0)
+		(at 91.44 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6964,7 +6964,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000053d57d6d")
 		(property "Reference" "#PWR018"
-			(at 96.52 72.136 0)
+			(at 91.44 72.136 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,7 +6975,7 @@
 			)
 		)
 		(property "Value" "+3.3VREG"
-			(at 96.52 68.326 0)
+			(at 91.44 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6985,7 +6985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 71.12 0)
+			(at 91.44 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6995,7 +6995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 71.12 0)
+			(at 91.44 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7005,7 +7005,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 71.12 0)
+			(at 91.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,13 +7842,9 @@
 		)
 		(uuid "89b88b6c-13c0-4d61-bdb8-dbc2a23b8c06")
 	)
-	(no_connect
-		(at 107.95 83.82)
-		(uuid "37cb22f4-0ddc-4fa1-9d80-5fe612c7951a")
-	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 99.06 71.12)
+			(xy 91.44 71.12) (xy 93.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7858,7 +7854,7 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary1:R")
-		(at 102.87 71.12 90)
+		(at 97.79 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7868,7 +7864,7 @@
 		(dnp no)
 		(uuid "9516b41a-89c0-44e7-b23b-768b4b069d30")
 		(property "Reference" "R5"
-			(at 102.87 68.58 90)
+			(at 97.79 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7878,7 +7874,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 102.87 73.66 90)
+			(at 97.79 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7888,7 +7884,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 102.87 71.12 0)
+			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7899,7 +7895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 71.12 0)
+			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7910,7 +7906,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 71.12 0)
+			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7921,7 +7917,7 @@
 			)
 		)
 		(property "MPN" "0805W8F100JT5E"
-			(at 102.87 71.12 0)
+			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,7 +7928,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 102.87 71.12 0)
+			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +7939,7 @@
 			)
 		)
 		(property "LCSC" "C17415"
-			(at 102.87 71.12 0)
+			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7970,7 +7966,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 107.95 71.12)
+			(xy 101.6 71.12) (xy 104.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8793,6 +8789,167 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "EtherkitKicadLibrary1:R")
+		(at 104.14 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "7adf54b4-1e12-4ee6-8b1b-9b15f26747b3")
+		(property "Reference" "R6"
+			(at 102.87 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 102.87 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DNP: fit to drive X1 pin 1 (EN) high for active-high-enable TCXOs"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e2a294d-89b2-4364-9edf-50300dc33830")
+		)
+		(pin "2"
+			(uuid "796cfc19-e9cd-4e53-b5b6-ac92b3dbb0c8")
+		)
+		(instances
+			(project "Si5351ABreakout"
+				(path "/27a31ec0-2ade-4972-ae66-7aeb0b8e0987"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04795a3-cbe7-4681-9d87-19922d3dd198")
+	)
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 104.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a126bddb-4622-4dd6-941c-ca9ccaeef831")
+	)
+	(wire
+		(pts
+			(xy 104.14 82.55) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64911f6-560d-416a-b8c3-b18c5192ae62")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10d662b-da33-4cca-856f-6a7827b1c158")
+	)
+	(junction
+		(at 104.14 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d0718e9-e9f8-4215-83e0-e9f82f323d3e")
 	)
 	(sheet_instances
 		(path "/"
