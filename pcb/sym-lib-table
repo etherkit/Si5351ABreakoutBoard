@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Si5351ABreakout")(type "KiCad")(uri "${KIPRJMOD}/Si5351ABreakout.kicad_sym")(options "")(descr "Project-local symbols"))
+  (lib (name "Si5351ABreakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/Si5351ABreakout-rescue.lib")(options "")(descr ""))
+  (lib (name "EtherkitKicadLibrary1")(type "Legacy")(uri "/home/jason/Nextcloud/Etherkit/git/EtherkitKicadLibrary/EtherkitKicadLibrary.lib")(options "")(descr ""))
+)
